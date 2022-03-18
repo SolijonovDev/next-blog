@@ -1,0 +1,48 @@
+.header{
+    padding: 140px 0 71px;
+    background-color: #fff;
+    display: flex;
+    align-items: flex-start;
+
+    .text{
+        width: 55%;
+        .title{
+            color:#21243D;
+            font-size: 44px;
+            line-height: 60px;
+            font-weight: 700;
+            margin-bottom: 40px;
+        }
+        .desc{
+            color:#21243D;
+            font-size: 16px;
+            line-height: 23px;
+            font-weight: 400;
+            margin-bottom: 38px;
+        }
+        .btn{
+            background-color: #FF6464;
+            outline: none;
+            border: 1px solid #FF6464;
+            padding: 9px 20px;
+            font-size: 20px;
+            line-height: 29px;
+            font-weight: 500;
+            color:#fff;
+            transition: all 800ms ease-in;
+            cursor: pointer;
+            &:hover{
+                color:#fff;
+                background-color: #613333;
+            }
+        }
+    }
+    .photo{
+        width: 45%;
+        text-align: center;
+        img{
+            width: 243px;
+            height: 243px;
+        }
+    }
+}
