@@ -19,7 +19,8 @@ a {
   text-decoration: none;
 }
 .container{
-  max-width: 1152px;
+  max-width: 1182px;
+  padding: 0 15px;
   width: 100%;
   margin: 0 auto;
 }

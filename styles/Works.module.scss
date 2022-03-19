@@ -1,19 +1,20 @@
-.featured{
-    padding: 15px 0 32px;
-    h2{
-        color:#21243D;
-        font-size: 22px;
+.works{
+    padding: 90px 0 52px;
+    margin-bottom: 58px;
+    .title{
+        color: #21243D;
+        font-size: 44px;
         line-height: 60px;
-        font-weight: 400;
-        margin-bottom: 22px;
+        font-weight: 700;
+        margin-bottom: 25px;
     }
     .items{
         .item{
             display: flex;
             justify-content: flex-start;
             align-items: flex-start;
-            padding-bottom: 15px;
-            margin-bottom: 31px;
+            padding-bottom: 47px;
+            margin-bottom: 43px;
             border-bottom: 1px solid #E0E0E0;
             img{
                 width: 246px;
@@ -22,10 +23,9 @@
             }
             .text{
                 h5{
-                    color:#21243D;
                     font-size: 30px;
-                    font-weight: 400;
                     line-height: 44px;
+                    font-weight: 700;
                     margin-bottom: 20px;
                 }
                 div{

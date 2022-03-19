@@ -1,13 +1,13 @@
 import React from 'react'
 import Head from 'next/head';
-import s from './MainLayout.module.scss'
+import s from './Layout.module.scss'
 import { IMainLayoutProps } from '../../types/mainLayout';
 import Link from 'next/link';
-import { network } from './../../constants/network';
+import { network } from '../../constants/network';
 import classNames from 'classnames';
 
 
-export default function MainLayout({ title, children }: IMainLayoutProps) {
+export default function Layout({ title, children }: IMainLayoutProps) {
     return (
         <div className={s.layout}>
             <Head>
@@ -27,7 +27,7 @@ export default function MainLayout({ title, children }: IMainLayoutProps) {
                 <div className={s.items}>
                     {
                         network.map(s => (
-                            <a href={s.href} target="_blank">
+                            <a key={s.id} href={s.href} target="_blank">
                                 <img src={s.icon.src} alt="Logo" />
                             </a>
                         ))

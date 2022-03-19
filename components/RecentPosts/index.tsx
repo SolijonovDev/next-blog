@@ -13,7 +13,7 @@ export const RecentPosts = (): JSX.Element => {
                 <div className={s.items}>
                     {
                         posts.map(item => (
-                            <div className={s.item}>
+                            <div key={item.id} className={s.item}>
                                 <h3>
                                     {item.name}
                                 </h3>

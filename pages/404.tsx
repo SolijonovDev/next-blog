@@ -1,4 +1,4 @@
-import MainLayout from "../components/MainLayout";
+import MainLayout from "../components/Layout";
 
 
 export default function NotFound(){

@@ -1,0 +1,39 @@
+.inner{
+    padding: 106px 0 53px;
+    max-width: 600px;
+    .title{
+        font-size: 44px;
+        line-height: 60px;
+        font-weight: 700;
+        margin-bottom: 55px;
+    }
+    .items{
+        width: 100%;
+        .item{
+            margin-bottom: 61px;
+            h3{
+                font-size: 30px;
+                line-height: 44px;
+                font-weight: 500;
+                margin-bottom: 16px;
+            }
+            div{
+                margin-bottom: 15px;
+                span{
+                    color:#21243D;
+                    margin-right: 26px;
+                    font-size: 16px;
+                    line-height: 23px;
+                    font-weight: 400;
+                    &:last-child{
+                        color:#8695A4;
+                    }
+                }
+            }
+            p{
+
+            }
+        }
+    }
+
+}

@@ -1,6 +1,7 @@
 import photo from '../utilits/work1.png'
 import photo2 from '../utilits/work2.png'
 import photo3 from '../utilits/work3.png'
+import photo4 from '../utilits/work4.png'
 
 interface IWorks{
     id:number;
@@ -39,5 +40,15 @@ export const works:IWorks[]=[
         skill:"Typography",
         title:"Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
         href:"#"
-    }
+    },
+    {
+        id:4,
+        img:photo4,
+        name:"Components",
+        year:"2018",
+        skill:"Components, Design",
+        title:"Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+        href:"#"
+    },
+
 ]
